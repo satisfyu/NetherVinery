@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethervinery:improved_nether_fizz"
+    ]
+  },
+  "criteria": {
+    "has_nether_fizz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethervinery:nether_fizz"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethervinery:improved_nether_fizz"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_nether_fizz",
+      "has_the_recipe"
+    ]
+  ]
+}

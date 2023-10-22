@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "fermentation_barrel",
+  "pattern": [
+    " US",
+    "B B"
+  ],
+  "key": {
+    "U": {
+      "item": "nethervinery:warped_barrel"
+    },
+    "B": {
+      "tag": "nethervinery:warped_planks"
+    },
+    "S": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "nethervinery:warped_fermentation_barrel"
+  }
+}

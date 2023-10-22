@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "P": {
+      "tag": "nethervinery:warped_planks"
+    },
+    "S": {
+      "item": "minecraft:warped_button"
+    }
+  },
+  "pattern": [
+    "PS",
+    "SP"
+  ],
+  "result": {
+    "item": "nethervinery:crested_warped_planks",
+    "count": 4
+  }
+}

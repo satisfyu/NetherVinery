@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#nethervinery:spawns_crimson_grape",
+  "features": "nethervinery:crimson_grape_bush_chance",
+  "step": "vegetal_decoration"
+}

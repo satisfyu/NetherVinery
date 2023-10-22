@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "nethervinery:block/crested_crimson_planks"
+  }
+}

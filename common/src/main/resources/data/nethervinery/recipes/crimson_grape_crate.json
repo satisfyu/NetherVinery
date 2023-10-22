@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grape_crate",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nethervinery:crimson_grape"
+    }
+  },
+  "result": {
+    "item": "nethervinery:crimson_grape_crate"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grape_crate",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "nethervinery:warped_grape"
+    }
+  },
+  "result": {
+    "item": "nethervinery:warped_grape_crate"
+  }
+}

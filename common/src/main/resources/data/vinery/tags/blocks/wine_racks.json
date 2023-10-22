@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "nethervinery:warped_wine_rack_small",
+    "nethervinery:warped_wine_rack_mid",
+    "nethervinery:warped_wine_rack_big",
+    "nethervinery:crimson_wine_rack_small",
+    "nethervinery:crimson_wine_rack_mid",
+    "nethervinery:crimson_wine_rack_big"
+  ]
+}

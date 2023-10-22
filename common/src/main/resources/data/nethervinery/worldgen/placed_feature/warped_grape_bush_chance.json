@@ -1,0 +1,12 @@
+{
+  "feature": "nethervinery:warped_grape_bush",
+  "placement": [
+    {
+      "type": "minecraft:count_on_every_layer",
+      "count": 8
+    },
+    {
+      "type": "minecraft:biome"
+    }
+  ]
+}

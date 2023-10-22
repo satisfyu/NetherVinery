@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethervinery:crested_crimson_planks"
+    ]
+  },
+  "criteria": {
+    "has_crimson_planks": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:crimson_planks"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethervinery:crested_crimson_planks"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_planks",
+      "has_the_recipe"
+    ]
+  ]
+}

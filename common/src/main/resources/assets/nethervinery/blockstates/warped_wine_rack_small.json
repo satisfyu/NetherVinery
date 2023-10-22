@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nethervinery:block/warped_wine_rack_small",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nethervinery:block/warped_wine_rack_small"
+    },
+    "facing=south": {
+      "model": "nethervinery:block/warped_wine_rack_small",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nethervinery:block/warped_wine_rack_small",
+      "y": 270
+    }
+  }
+}

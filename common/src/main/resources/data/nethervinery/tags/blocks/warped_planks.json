@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:warped_planks",
+    "nethervinery:reinforced_warped_planks",
+    "nethervinery:crested_warped_planks"
+  ]
+}

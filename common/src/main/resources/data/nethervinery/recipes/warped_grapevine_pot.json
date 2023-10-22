@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grapevine_pot",
+  "pattern": [
+    "U U",
+    "PPP",
+    "SSS"
+  ],
+  "key": {
+    "U": {
+      "item": "minecraft:warped_slab"
+    },
+    "P": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "tag": "nethervinery:warped_planks"
+    }
+  },
+  "result": {
+    "item": "nethervinery:warped_grapevine_pot"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "nethervinery:warped_grape_feature",
+  "config": {
+    "state": {
+      "Name": "nethervinery:warped_grape_bush",
+      "Properties": {
+        "age": "0",
+        "east": "false",
+        "north": "false",
+        "south": "false",
+        "sterilized": "false",
+        "up": "false",
+        "west": "false"
+      }
+    }
+  }
+}

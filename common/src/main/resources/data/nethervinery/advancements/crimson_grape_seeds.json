@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethervinery:crimson_grape_seeds"
+    ]
+  },
+  "criteria": {
+    "has_crimson_grape": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethervinery:crimson_grape"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethervinery:crimson_grape_seeds"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_crimson_grape",
+      "has_the_recipe"
+    ]
+  ]
+}

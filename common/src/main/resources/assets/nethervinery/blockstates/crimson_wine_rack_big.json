@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "nethervinery:block/crimson_wine_rack_big",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "nethervinery:block/crimson_wine_rack_big"
+    },
+    "facing=south": {
+      "model": "nethervinery:block/crimson_wine_rack_big",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "nethervinery:block/crimson_wine_rack_big",
+      "y": 270
+    }
+  }
+}

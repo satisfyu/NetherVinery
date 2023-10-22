@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#nethervinery:spawns_warped_grape",
+  "features": "nethervinery:warped_grape_bush_chance",
+  "step": "vegetal_decoration"
+}

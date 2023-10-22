@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethervinery:improved_lava_fizz"
+    ]
+  },
+  "criteria": {
+    "has_lava_fizz": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethervinery:lava_fizz"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethervinery:improved_lava_fizz"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_lava_fizz",
+      "has_the_recipe"
+    ]
+  ]
+}

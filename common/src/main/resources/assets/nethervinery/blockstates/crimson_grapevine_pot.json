@@ -1,0 +1,205 @@
+{
+  "variants": {
+    "stage=0": {
+      "model": "nethervinery:block/crimson_grapevine_pot"
+    },
+    "stage=1,type=red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=taiga_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=taiga_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=taiga_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=taiga_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=taiga_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=taiga_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=taiga_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=taiga_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=taiga_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=taiga_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=taiga_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=taiga_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=savanna_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=savanna_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=savanna_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=savanna_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=savanna_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=savanna_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=savanna_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=savanna_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=savanna_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=savanna_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=savanna_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=savanna_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=jungle_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=jungle_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=jungle_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=jungle_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=jungle_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=jungle_red": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=jungle_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=jungle_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=jungle_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=jungle_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=jungle_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=jungle_white": {
+      "model": "nethervinery:block/white_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=none": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=none": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=none": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=none": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=none": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=none": {
+      "model": "nethervinery:block/red_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=crimson": {
+      "model": "nethervinery:block/crimson_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=crimson": {
+      "model": "nethervinery:block/crimson_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=crimson": {
+      "model": "nethervinery:block/crimson_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=crimson": {
+      "model": "nethervinery:block/crimson_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=crimson": {
+      "model": "nethervinery:block/crimson_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=crimson": {
+      "model": "nethervinery:block/crimson_crimson_grapevine_pot_stage6"
+    },
+    "stage=1,type=warped": {
+      "model": "nethervinery:block/warped_crimson_grapevine_pot_stage1"
+    },
+    "stage=2,type=warped": {
+      "model": "nethervinery:block/warped_crimson_grapevine_pot_stage2"
+    },
+    "stage=3,type=warped": {
+      "model": "nethervinery:block/warped_crimson_grapevine_pot_stage3"
+    },
+    "stage=4,type=warped": {
+      "model": "nethervinery:block/warped_crimson_grapevine_pot_stage4"
+    },
+    "stage=5,type=warped": {
+      "model": "nethervinery:block/warped_crimson_grapevine_pot_stage5"
+    },
+    "stage=6,type=warped": {
+      "model": "nethervinery:block/warped_crimson_grapevine_pot_stage6"
+    }
+  }
+}

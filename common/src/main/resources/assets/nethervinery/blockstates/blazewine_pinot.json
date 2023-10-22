@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "fake_model=false": {
+      "model": "nethervinery:block/blazewine_pinot"
+    },
+    "fake_model=true": {
+      "model": "vinery:block/transparent"
+    }
+  }
+}

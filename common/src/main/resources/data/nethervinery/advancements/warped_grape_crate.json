@@ -1,0 +1,34 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "nethervinery:warped_grape_crate"
+    ]
+  },
+  "criteria": {
+    "has_warped_grape": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "nethervinery:warped_grape"
+            ]
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "nethervinery:warped_grape_crate"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_warped_grape",
+      "has_the_recipe"
+    ]
+  ]
+}

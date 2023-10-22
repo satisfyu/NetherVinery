@@ -1,0 +1,18 @@
+{
+  "replace": false,
+  "values": [
+    "#vinery:wine_racks",
+    "nethervinery:warped_fermentation_barrel",
+    "nethervinery:crimson_fermentation_barrel",
+    "nethervinery:warped_grapevine_pot",
+    "nethervinery:crimson_grapevine_pot",
+    "nethervinery:crested_crimson_planks",
+    "nethervinery:reinforced_crimson_planks",
+    "nethervinery:crested_warped_planks",
+    "nethervinery:reinforced_warped_planks",
+    "nethervinery:warped_apple_press",
+    "nethervinery:crimson_apple_press",
+    "nethervinery:warped_barrel",
+    "nethervinery:crimson_barrel"
+  ]
+}

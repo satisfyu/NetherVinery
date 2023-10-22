@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "nethervinery:crimson_grape"
+    }
+  ],
+  "result": {
+    "count": 3,
+    "item": "nethervinery:crimson_grape_seeds"
+  }
+}

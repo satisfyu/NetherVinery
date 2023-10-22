@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "grapevine_pot",
+  "pattern": [
+    "U U",
+    "PPP",
+    "SSS"
+  ],
+  "key": {
+    "U": {
+      "item": "minecraft:crimson_slab"
+    },
+    "P": {
+      "item": "minecraft:iron_nugget"
+    },
+    "S": {
+      "tag": "nethervinery:crimson_planks"
+    }
+  },
+  "result": {
+    "item": "nethervinery:crimson_grapevine_pot"
+  }
+}
