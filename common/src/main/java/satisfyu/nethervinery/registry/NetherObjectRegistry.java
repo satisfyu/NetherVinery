@@ -10,7 +10,6 @@ import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.effect.MobEffect;
 import net.minecraft.world.effect.MobEffectInstance;
-import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.BundleItem;
@@ -25,13 +24,15 @@ import net.minecraft.world.level.material.Material;
 import org.jetbrains.annotations.Nullable;
 import satisfyu.nethervinery.NetherVinery;
 import satisfyu.nethervinery.NetherVineryIdentifier;
+import satisfyu.nethervinery.block.AgingBarrelBlock;
 import satisfyu.nethervinery.block.ApplePressBlock;
 import satisfyu.nethervinery.block.BagBlock;
 import satisfyu.nethervinery.block.ObsidianPaleStemBlock;
 import satisfyu.nethervinery.block.grape.CrimsonGrapeBush;
 import satisfyu.nethervinery.block.grape.WarpedGrapeBush;
 import satisfyu.nethervinery.util.GrapeTypes;
-import satisfyu.vinery.block.*;
+import satisfyu.vinery.block.GrapeItem;
+import satisfyu.vinery.block.GrapevinePotBlock;
 import satisfyu.vinery.block.storage.BigBottleStorageBlock;
 import satisfyu.vinery.block.storage.FourBottleStorageBlock;
 import satisfyu.vinery.block.storage.NineBottleStorageBlock;
@@ -45,9 +46,6 @@ import satisfyu.vinery.util.VineryFoodComponent;
 import java.util.List;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
-
-import static satisfyu.nethervinery.util.GrapeTypes.CRIMSON;
-import static satisfyu.nethervinery.util.GrapeTypes.WARPED;
 
 public class NetherObjectRegistry {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(NetherVinery.MODID, Registry.ITEM_REGISTRY);
@@ -84,7 +82,7 @@ public class NetherObjectRegistry {
     public static final RegistrySupplier<Block> IMPROVED_LAVA_FIZZ = registerB("improved_lava_fizz", () -> new WineBottleBlock(getWineSettings(), 3));
     public static final RegistrySupplier<Item>  IMPROVED_LAVA_FIZZ_ITEM = registerI("improved_lava_fizz", () -> new DrinkBlockSmallItem(IMPROVED_LAVA_FIZZ.get(), getWineItemSettings(NetherEffects.IMPROVED_GRAVEDIGGER.get(), 1)));
 
-    public static final RegistrySupplier<Block> CRIMSON_FERMENTATION_BARREL = registerWithItem("crimson_fermentation_barrel", () -> new FermentationBarrelBlock(BlockBehaviour.Properties.copy(Blocks.BARREL).noOcclusion()));
+    public static final RegistrySupplier<Block> CRIMSON_FERMENTATION_BARREL = registerWithItem("crimson_fermentation_barrel", () -> new AgingBarrelBlock(BlockBehaviour.Properties.copy(Blocks.BARREL).noOcclusion()));
     public static final RegistrySupplier<Block> CRIMSON_GRAPEVINE_POT = registerWithItem("crimson_grapevine_pot", () -> new GrapevinePotBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
     public static final RegistrySupplier<Block> CRIMSON_APPLE_PRESS = registerWithItem("crimson_apple_press", () -> new ApplePressBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
     public static final RegistrySupplier<Block> CRIMSON_WINE_RACK_BIG = registerWithItem("crimson_wine_rack_big", () -> new NineBottleStorageBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD).noOcclusion()));
@@ -93,7 +91,7 @@ public class NetherObjectRegistry {
     public static final RegistrySupplier<Block> REINFORCED_CRIMSON_PLANKS = registerWithItem("reinforced_crimson_planks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
     public static final RegistrySupplier<Block> CRESTED_CRIMSON_PLANKS = registerWithItem("crested_crimson_planks", () -> new Block(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS)));
     public static final RegistrySupplier<Block> CRIMSON_BARREL = registerWithItem("crimson_barrel", () -> new BarrelBlock(BlockBehaviour.Properties.copy(Blocks.BARREL)));
-    public static final RegistrySupplier<Block> WARPED_FERMENTATION_BARREL = registerWithItem("warped_fermentation_barrel", () -> new FermentationBarrelBlock(BlockBehaviour.Properties.copy(Blocks.BARREL).noOcclusion()));
+    public static final RegistrySupplier<Block> WARPED_FERMENTATION_BARREL = registerWithItem("warped_fermentation_barrel", () -> new AgingBarrelBlock(BlockBehaviour.Properties.copy(Blocks.BARREL).noOcclusion()));
     public static final RegistrySupplier<Block> WARPED_GRAPEVINE_POT = registerWithItem("warped_grapevine_pot", () -> new GrapevinePotBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
     public static final RegistrySupplier<Block> WARPED_APPLE_PRESS = registerWithItem("warped_apple_press", () -> new ApplePressBlock(BlockBehaviour.Properties.copy(Blocks.CRIMSON_PLANKS).noOcclusion()));
     public static final RegistrySupplier<Block> WARPED_WINE_RACK_BIG = registerWithItem("warped_wine_rack_big", () -> new NineBottleStorageBlock(BlockBehaviour.Properties.of(Material.WOOD).strength(2.0F, 3.0F).sound(SoundType.WOOD).noOcclusion()));

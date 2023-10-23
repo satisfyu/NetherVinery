@@ -5,10 +5,11 @@ import satisfyu.vinery.block.grape.GrapeType;
 
 import static satisfyu.vinery.registry.GrapeTypes.registerGrapeType;
 
-public class GrapeTypes {
+
+public class GrapeTypes extends satisfyu.vinery.registry.GrapeTypes {
 
     public static final GrapeType CRIMSON = registerGrapeType("crimson");
-    public static final GrapeType WARPED = registerGrapeType("warped", true);
+    public static final GrapeType WARPED = registerGrapeType("warped");
 
     public static void addGrapeAttributes() {
         CRIMSON.setItems(NetherObjectRegistry.CRIMSON_GRAPE, NetherObjectRegistry.CRIMSON_GRAPE_SEEDS, NetherObjectRegistry.CRIMSON_GRAPEJUICE);

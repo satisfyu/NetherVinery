@@ -1,0 +1,11 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "item": "vinery:apple_mash"
+    }
+  ],
+  "result": {
+    "item": "vinery:apple_juice"
+  }
+}

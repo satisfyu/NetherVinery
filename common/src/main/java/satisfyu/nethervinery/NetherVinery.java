@@ -6,9 +6,7 @@ import net.minecraft.world.item.ItemStack;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import satisfyu.nethervinery.registry.*;
-import satisfyu.nethervinery.world.NetherVineryWarpedFeatures;
-
-import static satisfyu.nethervinery.util.GrapeTypes.addGrapeAttributes;
+import satisfyu.nethervinery.util.GrapeTypes;
 
 
 public class NetherVinery {
@@ -20,10 +18,11 @@ public class NetherVinery {
 
     public static void init() {
         NetherObjectRegistry.init();
-        addGrapeAttributes();
-        NetherEffects.init();
-        NetherVineryWarpedFeatures.init();
         NetherBlockEntityTypes.init();
+        GrapeTypes.addGrapeAttributes();
+        NetherEffects.init();
+        NetherScreenHandlerTypes.init();
+        NetherRecipeTypes.init();
         NetherScreenHandlerTypes.init();
     }
 

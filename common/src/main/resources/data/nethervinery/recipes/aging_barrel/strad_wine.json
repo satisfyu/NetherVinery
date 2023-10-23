@@ -1,0 +1,17 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "item": "vinery:jungle_white_grapejuice_bottle"
+    },
+    {
+      "item": "minecraft:cocoa_beans"
+    },
+    {
+      "item": "minecraft:sugar"
+    }
+  ],
+  "result": {
+    "item": "vinery:strad_wine"
+  }
+}

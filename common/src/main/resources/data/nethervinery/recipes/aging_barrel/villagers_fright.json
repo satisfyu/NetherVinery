@@ -1,0 +1,17 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "tag": "vinery:grapejuice"
+    },
+    {
+      "item": "minecraft:emerald"
+    },
+    {
+      "item": "minecraft:emerald"
+    }
+  ],
+  "result": {
+    "item": "vinery:villagers_fright"
+  }
+}

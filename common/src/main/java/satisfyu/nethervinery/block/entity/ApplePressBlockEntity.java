@@ -18,9 +18,8 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
-import satisfyu.nethervinery.client.gui.ApplePressGuiHandler;
+import satisfyu.nethervinery.client.gui.handler.ApplePressGuiHandler;
 import satisfyu.nethervinery.registry.NetherBlockEntityTypes;
-import satisfyu.vinery.block.entity.ImplementedInventory;
 import satisfyu.vinery.registry.ObjectRegistry;
 
 
@@ -75,13 +74,13 @@ public class ApplePressBlockEntity extends BlockEntity implements MenuProvider, 
     protected void saveAdditional(CompoundTag nbt) {
         super.saveAdditional(nbt);
         ContainerHelper.saveAllItems(nbt, inventory);
-        nbt.putInt("wine_press.progress", progress);
+        nbt.putInt("apple_press.progress", progress);
     }
 
     @Override
     public void load(CompoundTag nbt) {
         ContainerHelper.loadAllItems(nbt, inventory);
-        progress = nbt.getInt("wine_press.progress");
+        progress = nbt.getInt("apple_press.progress");
         super.load(nbt);
 
     }

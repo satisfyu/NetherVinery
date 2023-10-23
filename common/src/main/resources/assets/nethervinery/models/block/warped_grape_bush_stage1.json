@@ -1,0 +1,53 @@
+{
+	"credit": "Made by Satisfy",
+	"ambientocclusion": false,
+	"render_type": "minecraft:cutout",
+	"texture_size": [32, 16],
+	"textures": {
+		"1": "nethervinery:block/warped_grape_bush_top_stage1",
+		"particle": "nethervinery:block/warped_grape_bush_bottom_stage1",
+		"cross": "nethervinery:block/warped_grape_bush_bottom_stage1"
+	},
+	"elements": [
+		{
+			"from": [13.99994, 0, 2.00006],
+			"to": [13.99994, 16, 14.00006],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [13.99994, 8, 2.00006], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [13.99994, 0, 1.99994],
+			"to": [13.99994, 16, 13.99994],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [13.99994, 8, 13.99994], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#cross"}
+			}
+		},
+		{
+			"from": [13.99994, 16, 1.99994],
+			"to": [13.99994, 32, 13.99994],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [13.99994, 24, 13.99994], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#1"}
+			}
+		},
+		{
+			"from": [13.99994, 16, 2.00006],
+			"to": [13.99994, 32, 14.00006],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [13.99994, 24, 2.00006], "rescale": true},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"west": {"uv": [16, 0, 0, 16], "texture": "#1"}
+			}
+		}
+	]
+}

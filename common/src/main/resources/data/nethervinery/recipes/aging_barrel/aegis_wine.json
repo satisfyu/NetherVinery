@@ -1,0 +1,17 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "item": "minecraft:sugar"
+    },
+    {
+      "item": "minecraft:kelp"
+    },
+    {
+      "item": "vinery:savanna_white_grapejuice_bottle"
+    }
+  ],
+  "result": {
+    "item": "vinery:aegis_wine"
+  }
+}

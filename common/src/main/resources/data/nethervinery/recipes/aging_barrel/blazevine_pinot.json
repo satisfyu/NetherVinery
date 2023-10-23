@@ -1,0 +1,14 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "item": "nethervinery:crimson_grapejuice"
+    },
+    {
+      "item": "minecraft:blaze_powder"
+    }
+  ],
+  "result": {
+    "item": "nethervinery:blazewine_pinot"
+  }
+}

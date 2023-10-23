@@ -1,0 +1,14 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "tag": "minecraft:grapejuice_red"
+    },
+    {
+      "item": "vinery:cherry"
+    }
+  ],
+  "result": {
+    "item": "vinery:cherry_wine"
+  }
+}

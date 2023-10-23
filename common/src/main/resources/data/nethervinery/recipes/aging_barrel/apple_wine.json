@@ -1,0 +1,14 @@
+{
+  "type": "nethervinery:aging_barrel",
+  "ingredients": [
+    {
+      "item": "vinery:apple_juice"
+    },
+    {
+      "item": "minecraft:honey_bottle"
+    }
+  ],
+  "result": {
+    "item": "vinery:apple_wine"
+  }
+}

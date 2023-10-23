@@ -2,6 +2,7 @@ build/
 *.ipr
 run/
 *.iws
+out/
 *.iml
 .gradle/
 output/
