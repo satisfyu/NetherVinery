@@ -5,8 +5,7 @@ import satisfyu.vinery.block.grape.GrapeType;
 
 import static satisfyu.vinery.registry.GrapeTypes.registerGrapeType;
 
-
-public class GrapeTypes extends satisfyu.vinery.registry.GrapeTypes {
+public class GrapeTypes {
 
     public static final GrapeType CRIMSON = registerGrapeType("crimson");
     public static final GrapeType WARPED = registerGrapeType("warped");

@@ -112,28 +112,28 @@
       "model": "vinery:block/grapevine_stem"
     },
     "age=1,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage1"
+      "model": "nethervinery:block/crimson_grapevine_stage0"
     },
     "age=1,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage1"
+      "model": "nethervinery:block/warped_grapevine_stage0"
     },
     "age=2,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage2"
+      "model": "nethervinery:block/crimson_grapevine_stage1"
     },
     "age=2,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage2"
+      "model": "nethervinery:block/warped_grapevine_stage1"
     },
     "age=3,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage3"
+      "model": "nethervinery:block/crimson_grapevine_stage2"
     },
     "age=3,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage3"
+      "model": "nethervinery:block/warped_grapevine_stage2"
     },
     "age=4,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage4"
+      "model": "nethervinery:block/crimson_grapevine_stage3"
     },
     "age=4,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage4"
+      "model": "nethervinery:block/warped_grapevine_stage3"
     }
   }
 }

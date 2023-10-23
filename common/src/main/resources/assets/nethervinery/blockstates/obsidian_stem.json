@@ -1,139 +1,139 @@
 {
   "variants": {
     "age=0": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=1,grape=red": {
-      "model": "nethervinery:block/grapevine_stage1"
+      "model": "nethervinery:block/obsidian_grapevine_stage1"
     },
     "age=1,grape=white": {
-      "model": "nethervinery:block/grapevine_stage1"
+      "model": "nethervinery:block/obsidian_grapevine_stage1"
     },
     "age=1,grape=none": {
-      "model": "nethervinery:block/grapevine_stage1"
+      "model": "nethervinery:block/obsidian_grapevine_stage1"
     },
     "age=2,grape=red": {
-      "model": "nethervinery:block/grapevine_stage2"
+      "model": "nethervinery:block/obsidian_grapevine_stage2"
     },
     "age=2,grape=white": {
-      "model": "nethervinery:block/grapevine_stage2"
+      "model": "nethervinery:block/obsidian_grapevine_stage2"
     },
     "age=2,grape=none": {
-      "model": "nethervinery:block/grapevine_stage2"
+      "model": "nethervinery:block/obsidian_grapevine_stage2"
     },
     "age=3,grape=red": {
-      "model": "nethervinery:block/grapevine_red_stage3"
+      "model": "nethervinery:block/obsidian_grapevine_red_stage3"
     },
     "age=3,grape=white": {
-      "model": "nethervinery:block/grapevine_white_stage3"
+      "model": "nethervinery:block/obsidian_grapevine_white_stage3"
     },
     "age=3,grape=none": {
-      "model": "nethervinery:block/grapevine_white_stage3"
+      "model": "nethervinery:block/obsidian_grapevine_white_stage3"
     },
     "age=4,grape=red": {
-      "model": "nethervinery:block/grapevine_red_stage4"
+      "model": "nethervinery:block/obsidian_grapevine_red_stage4"
     },
     "age=4,grape=white": {
-      "model": "nethervinery:block/grapevine_white_stage4"
+      "model": "nethervinery:block/obsidian_grapevine_white_stage4"
     },
     "age=4,grape=none": {
-      "model": "nethervinery:block/grapevine_white_stage4"
+      "model": "nethervinery:block/obsidian_grapevine_white_stage4"
     },
     "age=1,grape=taiga_red": {
-      "model": "nethervinery:block/taiga_grapevine_stage1"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_stage1"
     },
     "age=1,grape=taiga_white": {
-      "model": "nethervinery:block/taiga_grapevine_stage1"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_stage1"
     },
     "age=2,grape=taiga_red": {
-      "model": "nethervinery:block/taiga_grapevine_stage2"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_stage2"
     },
     "age=2,grape=taiga_white": {
-      "model": "nethervinery:block/taiga_grapevine_stage2"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_stage2"
     },
     "age=3,grape=taiga_red": {
-      "model": "nethervinery:block/taiga_grapevine_red_stage3"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_red_stage3"
     },
     "age=3,grape=taiga_white": {
-      "model": "nethervinery:block/taiga_grapevine_white_stage3"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_white_stage3"
     },
     "age=4,grape=taiga_red": {
-      "model": "nethervinery:block/taiga_grapevine_red_stage4"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_red_stage4"
     },
     "age=4,grape=taiga_white": {
-      "model": "nethervinery:block/taiga_grapevine_white_stage4"
+      "model": "nethervinery:block/taiga_obsidian_grapevine_white_stage4"
     },
     "age=1,grape=savanna_red": {
-      "model": "nethervinery:block/savanna_grapevine_stage1"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_stage1"
     },
     "age=1,grape=savanna_white": {
-      "model": "nethervinery:block/savanna_grapevine_stage1"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_stage1"
     },
     "age=2,grape=savanna_red": {
-      "model": "nethervinery:block/savanna_grapevine_stage2"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_stage2"
     },
     "age=2,grape=savanna_white": {
-      "model": "nethervinery:block/savanna_grapevine_stage2"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_stage2"
     },
     "age=3,grape=savanna_red": {
-      "model": "nethervinery:block/savanna_grapevine_red_stage3"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_red_stage3"
     },
     "age=3,grape=savanna_white": {
-      "model": "nethervinery:block/savanna_grapevine_white_stage3"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_white_stage3"
     },
     "age=4,grape=savanna_red": {
-      "model": "nethervinery:block/savanna_grapevine_red_stage4"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_red_stage4"
     },
     "age=4,grape=savanna_white": {
-      "model": "nethervinery:block/savanna_grapevine_white_stage4"
+      "model": "nethervinery:block/savanna_obsidian_grapevine_white_stage4"
     },
     "age=1,grape=jungle_red": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=1,grape=jungle_white": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=2,grape=jungle_red": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=2,grape=jungle_white": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=3,grape=jungle_red": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=3,grape=jungle_white": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=4,grape=jungle_red": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=4,grape=jungle_white": {
-      "model": "nethervinery:block/obsidian_stem"
+      "model": "nethervinery:block/obsidian_grapevine_stem"
     },
     "age=1,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage1"
+      "model": "nethervinery:block/crimson_obsidian_grapevine_stage1"
     },
     "age=1,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage1"
+      "model": "nethervinery:block/warped_obsidian_grapevine_stage1"
     },
     "age=2,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage2"
+      "model": "nethervinery:block/crimson_obsidian_grapevine_stage2"
     },
     "age=2,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage2"
+      "model": "nethervinery:block/warped_obsidian_grapevine_stage2"
     },
     "age=3,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage3"
+      "model": "nethervinery:block/crimson_obsidian_grapevine_stage3"
     },
     "age=3,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage3"
+      "model": "nethervinery:block/warped_obsidian_grapevine_stage3"
     },
     "age=4,grape=crimson": {
-      "model": "nethervinery:block/crimson_grapevine_stage4"
+      "model": "nethervinery:block/crimson_obsidian_grapevine_stage4"
     },
     "age=4,grape=warped": {
-      "model": "nethervinery:block/warped_grapevine_stage4"
+      "model": "nethervinery:block/warped_obsidian_grapevine_stage4"
     }
   }
 }

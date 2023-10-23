@@ -704,6 +704,96 @@
     "age=0,facing=west,grape=warped": {
       "y": 270,
       "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=north,grape=crimson": {
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=east,grape=crimson": {
+      "y": 90,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=south,grape=crimson": {
+      "y": 180,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=west,grape=crimson": {
+      "y": 270,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=north,grape=warped": {
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=east,grape=warped": {
+      "y": 90,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=south,grape=warped": {
+      "y": 180,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=1,facing=west,grape=warped": {
+      "y": 270,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=north,grape=crimson": {
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=east,grape=crimson": {
+      "y": 90,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=south,grape=crimson": {
+      "y": 180,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=west,grape=crimson": {
+      "y": 270,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=north,grape=warped": {
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=east,grape=warped": {
+      "y": 90,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=south,grape=warped": {
+      "y": 180,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=2,facing=west,grape=warped": {
+      "y": 270,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=north,grape=crimson": {
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=east,grape=crimson": {
+      "y": 90,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=south,grape=crimson": {
+      "y": 180,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=west,grape=crimson": {
+      "y": 270,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=north,grape=warped": {
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=east,grape=warped": {
+      "y": 90,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=south,grape=warped": {
+      "y": 180,
+      "model": "vinery:block/grapevine_lattice"
+    },
+    "age=3,facing=west,grape=warped": {
+      "y": 270,
+      "model": "vinery:block/grapevine_lattice"
     }
   }
 }
