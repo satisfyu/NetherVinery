@@ -37,8 +37,4 @@ public class NetherVineryClient {
         MenuRegistry.registerScreenFactory(NetherScreenHandlerTypes.APPLE_PRESS_GUI_HANDLER.get(), ApplePressGui::new);
         MenuRegistry.registerScreenFactory(NetherScreenHandlerTypes.FERMENTATION_BARREL_GUI_HANDLER.get(), AgingBarrelGui::new);
     }
-
-    public static void onPreLaunch() {
-        NetherGrapeTypes.registerGrapeType();
-    }
 }

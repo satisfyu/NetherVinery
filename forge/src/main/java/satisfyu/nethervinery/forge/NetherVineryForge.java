@@ -5,14 +5,14 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import satisfyu.nethervinery.NetherVinery;
 import satisfyu.nethervinery.client.NetherVineryClient;
+import satisfyu.nethervinery.util.NetherVineryPre;
 
 @Mod(NetherVinery.MODID)
 public class NetherVineryForge {
     public NetherVineryForge() {
         EventBuses.registerModEventBus(NetherVinery.MODID, FMLJavaModLoadingContext.get().getModEventBus());
+        NetherVineryPre.preInit();
         NetherVinery.init();
         NetherVinery.commonSetup();
-        NetherVineryClient.onInitializeClient();
-        NetherVineryClient.onPreLaunch();
     }
 }

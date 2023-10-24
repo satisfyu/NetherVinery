@@ -1,5 +1,7 @@
 package satisfyu.nethervinery.registry;
 
+import satisfyu.nethervinery.NetherVinery;
+import satisfyu.vinery.Vinery;
 import satisfyu.vinery.block.grape.GrapeType;
 import satisfyu.vinery.registry.GrapeTypes;
 
@@ -7,12 +9,10 @@ import satisfyu.vinery.registry.GrapeTypes;
 public class NetherGrapeTypes {
 
     public static final GrapeType CRIMSON = GrapeTypes.registerGrapeType("crimson");
-    public static final GrapeType WARPED = GrapeTypes.registerGrapeType("warped");
+    public static final GrapeType WARPED = GrapeTypes.registerGrapeType("warped", true);
 
-    public static GrapeType registerGrapeType() {
-        GrapeType grapeType = new GrapeType("", false);
-        GrapeTypes.GRAPE_TYPE_TYPES.add(grapeType);
-        return grapeType;
+    public static void register() {
+        NetherVinery.LOGGER.debug("Register GrapeTypes for: " + NetherVinery.MODID);
     }
 
     public static void addGrapeAttributes() {

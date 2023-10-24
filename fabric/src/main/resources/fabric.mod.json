@@ -17,6 +17,12 @@
     "main": [
       "satisfyu.nethervinery.fabric.NetherVineryFabric"
     ],
+    "client": [
+      "satisfyu.nethervinery.fabric.client.NetherVineryClientFabric"
+    ],
+    "preLaunch": [
+      "satisfyu.nethervinery.fabric.NetherVineryFabricPre"
+    ],
     "doapi": [
       "satisfyu.nethervinery.util.api.NetherVineryDoApi"
     ]

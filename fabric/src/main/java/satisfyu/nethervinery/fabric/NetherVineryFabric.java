@@ -11,7 +11,5 @@ public class NetherVineryFabric implements ModInitializer {
         NetherVinery.init();
         NetherVinery.commonSetup();
         NetherVineryBiomeModification.init();
-        NetherVineryClient.onInitializeClient();
-        NetherVineryClient.onPreLaunch();
     }
 }
