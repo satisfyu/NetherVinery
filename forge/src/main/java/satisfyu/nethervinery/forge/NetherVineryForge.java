@@ -13,5 +13,6 @@ public class NetherVineryForge {
         NetherVinery.init();
         NetherVinery.commonSetup();
         NetherVineryClient.onInitializeClient();
+        NetherVineryClient.onPreLaunch();
     }
 }

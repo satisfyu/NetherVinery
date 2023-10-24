@@ -2,10 +2,10 @@
 	"credit": "Made by Satisfy",
 	"textures": {
 		"1": "nethervinery:block/warped_grapevine",
-		"2": "nethervinery:block/warped_fermen_barrel_bottom",
-		"3": "nethervinery:block/warped_fermen_barrel_side",
+		"2": "vinery:block/bottom",
+		"3": "vinery:block/pot_side",
 		"4": "nethervinery:block/warped_grapejuice",
-		"particle": "nethervinery:block/warped_fermen_barrel_bottom"
+		"particle": "vinery:block/bottom"
 	},
 	"elements": [
 		{

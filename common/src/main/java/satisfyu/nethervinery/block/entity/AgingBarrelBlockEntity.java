@@ -22,8 +22,8 @@ import net.minecraft.world.level.block.state.BlockState;
 import org.jetbrains.annotations.Nullable;
 import satisfyu.nethervinery.client.gui.handler.AgingBarrelGuiHandler;
 import satisfyu.nethervinery.registry.NetherBlockEntityTypes;
-import satisfyu.nethervinery.registry.NetherRecipeTypes;
 import satisfyu.vinery.registry.ObjectRegistry;
+import satisfyu.vinery.registry.VineryRecipeTypes;
 import satisfyu.vinery.util.WineYears;
 
 public class AgingBarrelBlockEntity extends BlockEntity implements Container, BlockEntityTicker<AgingBarrelBlockEntity>, MenuProvider {
@@ -87,7 +87,7 @@ public class AgingBarrelBlockEntity extends BlockEntity implements Container, Bl
     public void tick(Level world, BlockPos pos, BlockState state, AgingBarrelBlockEntity blockEntity) {
         if (world.isClientSide) return;
         boolean dirty = false;
-        Recipe<?> recipe = world.getRecipeManager().getRecipeFor(NetherRecipeTypes.AGING_BARREL_RECIPE_TYPE.get(), this, world).orElse(null);
+        Recipe<?> recipe = world.getRecipeManager().getRecipeFor(VineryRecipeTypes.FERMENTATION_BARREL_RECIPE_TYPE.get(), this, world).orElse(null);
         if (canCraft(recipe)) {
             this.fermentationTime++;
 

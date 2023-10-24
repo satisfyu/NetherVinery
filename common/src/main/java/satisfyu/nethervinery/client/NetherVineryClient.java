@@ -7,8 +7,9 @@ import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.RenderType;
-import satisfyu.nethervinery.client.gui.ApplePressGui;
 import satisfyu.nethervinery.client.gui.AgingBarrelGui;
+import satisfyu.nethervinery.client.gui.ApplePressGui;
+import satisfyu.nethervinery.registry.NetherGrapeTypes;
 import satisfyu.nethervinery.registry.NetherObjectRegistry;
 import satisfyu.nethervinery.registry.NetherScreenHandlerTypes;
 
@@ -35,6 +36,9 @@ public class NetherVineryClient {
 
         MenuRegistry.registerScreenFactory(NetherScreenHandlerTypes.APPLE_PRESS_GUI_HANDLER.get(), ApplePressGui::new);
         MenuRegistry.registerScreenFactory(NetherScreenHandlerTypes.FERMENTATION_BARREL_GUI_HANDLER.get(), AgingBarrelGui::new);
+    }
 
+    public static void onPreLaunch() {
+        NetherGrapeTypes.registerGrapeType();
     }
 }

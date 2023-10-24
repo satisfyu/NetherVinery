@@ -11,13 +11,13 @@ import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.crafting.Recipe;
-import satisfyu.nethervinery.recipe.AgingBarrelRecipe;
-import satisfyu.nethervinery.registry.NetherRecipeTypes;
 import satisfyu.nethervinery.registry.NetherScreenHandlerTypes;
 import satisfyu.vinery.client.gui.handler.slot.ExtendedSlot;
 import satisfyu.vinery.client.gui.handler.slot.StoveOutputSlot;
 import satisfyu.vinery.client.recipebook.group.FermentationBarrelRecipeBookGroup;
+import satisfyu.vinery.recipe.FermentationBarrelRecipe;
 import satisfyu.vinery.registry.ObjectRegistry;
+import satisfyu.vinery.registry.VineryRecipeTypes;
 
 
 import java.util.List;
@@ -58,7 +58,7 @@ public class AgingBarrelGuiHandler extends AbstractRecipeBookGUIScreenHandler {
     }
 
     private boolean isIngredient(ItemStack stack) {
-        return this.world.getRecipeManager().getAllRecipesFor(NetherRecipeTypes.AGING_BARREL_RECIPE_TYPE.get()).stream().anyMatch(recipe -> recipe.getIngredients().stream().anyMatch(x -> x.test(stack)));
+        return this.world.getRecipeManager().getAllRecipesFor(VineryRecipeTypes.FERMENTATION_BARREL_RECIPE_TYPE.get()).stream().anyMatch(recipe -> recipe.getIngredients().stream().anyMatch(x -> x.test(stack)));
     }
 
     public int getScaledProgress(int arrowWidth) {
@@ -77,7 +77,7 @@ public class AgingBarrelGuiHandler extends AbstractRecipeBookGUIScreenHandler {
 
     @Override
     public boolean hasIngredient(Recipe<?> recipe) {
-        if (recipe instanceof AgingBarrelRecipe fermentationBarrelRecipe) {
+        if (recipe instanceof FermentationBarrelRecipe fermentationBarrelRecipe) {
             for (Ingredient ingredient : fermentationBarrelRecipe.getIngredients()) {
                 boolean found = false;
                 for (Slot slot : this.slots) {

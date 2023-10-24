@@ -8,13 +8,13 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.player.Inventory;
 import satisfyu.nethervinery.NetherVineryIdentifier;
 import satisfyu.nethervinery.client.gui.handler.AgingBarrelGuiHandler;
-import satisfyu.nethervinery.client.recipebook.AgingBarrelRecipeBook;
+import satisfyu.vinery.client.recipebook.FermentationPotRecipeBook;
 
 @Environment(EnvType.CLIENT)
 public class AgingBarrelGui extends AbstractRecipeBookGUIScreen<AgingBarrelGuiHandler> {
 
     public AgingBarrelGui(AgingBarrelGuiHandler handler, Inventory inventory, Component title) {
-        super(handler, inventory, title, new AgingBarrelRecipeBook(), new NetherVineryIdentifier("textures/gui/barrel_gui.png"));
+        super(handler, inventory, title, new FermentationPotRecipeBook(), new NetherVineryIdentifier("textures/gui/barrel_gui.png"));
     }
 
     @Override

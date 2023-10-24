@@ -33,15 +33,18 @@ public class ObsidianPaleStemBlock extends PaleStemBlock {
         super.randomTick(state, world, pos, random);
     }
 
-
     @Override
     public void appendHoverText(ItemStack itemStack, BlockGetter world, List<Component> tooltip, TooltipFlag tooltipContext) {
         tooltip.add(Component.translatable("block.vinery.stem.tooltip").withStyle(ChatFormatting.ITALIC, ChatFormatting.GRAY));
+        tooltip.add(Component.empty());
+        tooltip.add(Component.translatable( "item.nethervinery.stem3.tooltip").withStyle(ChatFormatting.BLUE));
+        tooltip.add(Component.empty());
         if (Screen.hasShiftDown()) {
             tooltip.add(Component.translatable( "item.vinery.stem2.tooltip"));
-            tooltip.add(Component.translatable( "item.nethervinery.stem3.tooltip"));
         } else {
             tooltip.add(Component.translatable("item.vinery.faucet.tooltip"));
+
+
         }
     }
 }

@@ -6,7 +6,6 @@ import net.minecraft.world.item.ItemStack;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import satisfyu.nethervinery.registry.*;
-import satisfyu.nethervinery.util.GrapeTypes;
 
 
 public class NetherVinery {
@@ -16,13 +15,14 @@ public class NetherVinery {
     public static final CreativeModeTab NETHERVINERY_TAB = CreativeTabRegistry.create(new NetherVineryIdentifier("nethervinery_tab"), () ->
             new ItemStack(NetherObjectRegistry.CRIMSON_GRAPE.get()));
 
+
+
+
     public static void init() {
         NetherObjectRegistry.init();
         NetherBlockEntityTypes.init();
-        GrapeTypes.addGrapeAttributes();
+        NetherGrapeTypes.addGrapeAttributes();
         NetherEffects.init();
-        NetherScreenHandlerTypes.init();
-        NetherRecipeTypes.init();
         NetherScreenHandlerTypes.init();
     }
 
