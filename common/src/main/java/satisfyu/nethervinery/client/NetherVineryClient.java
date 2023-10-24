@@ -9,7 +9,6 @@ import net.minecraft.client.renderer.BiomeColors;
 import net.minecraft.client.renderer.RenderType;
 import satisfyu.nethervinery.client.gui.AgingBarrelGui;
 import satisfyu.nethervinery.client.gui.ApplePressGui;
-import satisfyu.nethervinery.registry.NetherGrapeTypes;
 import satisfyu.nethervinery.registry.NetherObjectRegistry;
 import satisfyu.nethervinery.registry.NetherScreenHandlerTypes;
 

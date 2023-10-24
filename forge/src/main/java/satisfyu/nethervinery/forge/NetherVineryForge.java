@@ -4,7 +4,6 @@ import dev.architectury.platform.forge.EventBuses;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import satisfyu.nethervinery.NetherVinery;
-import satisfyu.nethervinery.client.NetherVineryClient;
 import satisfyu.nethervinery.util.NetherVineryPre;
 
 @Mod(NetherVinery.MODID)

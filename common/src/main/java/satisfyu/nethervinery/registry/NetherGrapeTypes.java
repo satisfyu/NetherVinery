@@ -1,7 +1,6 @@
 package satisfyu.nethervinery.registry;
 
 import satisfyu.nethervinery.NetherVinery;
-import satisfyu.vinery.Vinery;
 import satisfyu.vinery.block.grape.GrapeType;
 import satisfyu.vinery.registry.GrapeTypes;
 
