@@ -16,18 +16,18 @@ public class HearthstoneEffect extends InstantenousMobEffect {
 
     @Override
     public void applyEffectTick(LivingEntity livingEntity, int amplifier) {
-        if (!livingEntity.getLevel().isClientSide()){
+        if (!livingEntity.level().isClientSide()){
             if (livingEntity instanceof ServerPlayer serverPlayer && !livingEntity.isSpectator()) {
                 Vec3 pos;
-                if (serverPlayer.getRespawnPosition() != null && (serverPlayer.getLevel().getBlockState(serverPlayer.getRespawnPosition()).getBlock() instanceof BedBlock)) {
+                if (serverPlayer.getRespawnPosition() != null && (serverPlayer.level().getBlockState(serverPlayer.getRespawnPosition()).getBlock() instanceof BedBlock)) {
                     pos = Vec3.atBottomCenterOf(serverPlayer.getRespawnPosition());
                     serverPlayer.connection.teleport(pos.x, pos.y, pos.z, Mth.wrapDegrees(serverPlayer.getYRot()), Mth.wrapDegrees(serverPlayer.getXRot()));
                 } else {
-                    pos = Vec3.atBottomCenterOf(serverPlayer.getLevel().getSharedSpawnPos());
+                    pos = Vec3.atBottomCenterOf(serverPlayer.level().getSharedSpawnPos());
                     serverPlayer.connection.teleport(pos.x, pos.y, pos.z, Mth.wrapDegrees(serverPlayer.getYRot()), Mth.wrapDegrees(serverPlayer.getXRot()));
                 }
             } else {
-                Vec3 pos = Vec3.atBottomCenterOf(livingEntity.getLevel().getSharedSpawnPos());
+                Vec3 pos = Vec3.atBottomCenterOf(livingEntity.level().getSharedSpawnPos());
                 livingEntity.teleportTo(pos.x, pos.y, pos.z);
             }
         }

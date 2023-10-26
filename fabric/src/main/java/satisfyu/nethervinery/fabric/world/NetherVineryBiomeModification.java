@@ -2,6 +2,7 @@ package satisfyu.nethervinery.fabric.world;
 
 import net.fabricmc.fabric.api.biome.v1.*;
 import net.minecraft.core.Registry;
+import net.minecraft.core.registries.Registries;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.levelgen.GenerationStep;
 import satisfyu.nethervinery.NetherVineryIdentifier;
@@ -24,7 +25,7 @@ public class NetherVineryBiomeModification {
     }
 
     private static Predicate<BiomeSelectionContext> getVinerySelector(String path) {
-        return BiomeSelectors.tag(TagKey.create(Registry.BIOME_REGISTRY, new NetherVineryIdentifier(path)));
+        return BiomeSelectors.tag(TagKey.create(Registries.BIOME, new NetherVineryIdentifier(path)));
     }
 
 

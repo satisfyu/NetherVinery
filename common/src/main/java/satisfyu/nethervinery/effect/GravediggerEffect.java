@@ -15,10 +15,10 @@ public class GravediggerEffect extends InstantenousMobEffect {
 
     @Override
     public void applyEffectTick(LivingEntity livingEntity, int amplifier) {
-        if (!livingEntity.getLevel().isClientSide()){
+        if (!livingEntity.level().isClientSide()){
             if (livingEntity instanceof ServerPlayer serverPlayer && !livingEntity.isSpectator()) {
                 if (serverPlayer.getLastDeathLocation().isPresent()) {
-                    if (serverPlayer.getLevel().dimension() == serverPlayer.getLastDeathLocation().get().dimension()) {
+                    if (serverPlayer.level().dimension() == serverPlayer.getLastDeathLocation().get().dimension()) {
                         Vec3 pos = Vec3.atBottomCenterOf(serverPlayer.getLastDeathLocation().get().pos());
                         serverPlayer.connection.teleport(pos.x, pos.y, pos.z, Mth.wrapDegrees(serverPlayer.getYRot()), Mth.wrapDegrees(serverPlayer.getXRot()));
                     }

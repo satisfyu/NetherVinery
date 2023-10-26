@@ -1,9 +1,9 @@
 package satisfyu.nethervinery.client.gui;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import com.mojang.blaze3d.vertex.PoseStack;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
+import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.renderer.GameRenderer;
 import net.minecraft.network.chat.Component;
@@ -18,6 +18,9 @@ public class ApplePressGui extends AbstractContainerScreen<ApplePressGuiHandler>
     private static final ResourceLocation TEXTURE =
             new NetherVineryIdentifier("textures/gui/wine_press.png");
 
+    public static final int ARROW_X = 78;
+    public static final int ARROW_Y = 35;
+
     public ApplePressGui(ApplePressGuiHandler handler, Inventory inventory, Component title) {
         super(handler, inventory, title);
     }
@@ -29,27 +32,28 @@ public class ApplePressGui extends AbstractContainerScreen<ApplePressGuiHandler>
     }
 
     @Override
-    protected void renderBg(PoseStack matrices, float delta, int mouseX, int mouseY) {
+    protected void renderBg(GuiGraphics guiGraphics, float f, int i, int j) {
         RenderSystem.setShader(GameRenderer::getPositionTexShader);
         RenderSystem.setShaderColor(1.0F, 1.0F, 1.0F, 1.0F);
         RenderSystem.setShaderTexture(0, TEXTURE);
         int x = (width - imageWidth) / 2;
         int y = (height - imageHeight) / 2;
-        blit(matrices, x, y, 0, 0, imageWidth, imageHeight);
+        guiGraphics.blit(TEXTURE, x, y, 0, 0, imageWidth, imageHeight);
 
-        renderProgressArrow(matrices, x, y);
+        renderProgressArrow(guiGraphics, x, y);
     }
 
-    private void renderProgressArrow(PoseStack matrices, int x, int y) {
+
+    private void renderProgressArrow(GuiGraphics guiGraphics, int x, int y) {
         if(menu.isCrafting()) {
-            blit(matrices, x + 78, y + 35, 176, 0, menu.getScaledProgress(), 20);
+            guiGraphics.blit(TEXTURE, x + ARROW_X, y + ARROW_Y, 176, 0, menu.getScaledProgress(), 20);
         }
     }
 
     @Override
-    public void render(PoseStack matrices, int mouseX, int mouseY, float delta) {
-        renderBackground(matrices);
-        super.render(matrices, mouseX, mouseY, delta);
-        renderTooltip(matrices, mouseX, mouseY);
+    public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float delta) {
+        renderBackground(guiGraphics);
+        super.render(guiGraphics, mouseX, mouseY, delta);
+        renderTooltip(guiGraphics, mouseX, mouseY);
     }
 }
