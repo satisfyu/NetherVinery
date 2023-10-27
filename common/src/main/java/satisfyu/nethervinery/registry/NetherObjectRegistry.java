@@ -20,6 +20,7 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
+import satisfyu.nethervinery.NetherVinery;
 import satisfyu.nethervinery.NetherVineryIdentifier;
 import satisfyu.nethervinery.block.AgingBarrelBlock;
 import satisfyu.nethervinery.block.ApplePressBlock;
@@ -27,7 +28,6 @@ import satisfyu.nethervinery.block.ImprovedWineBottleBlock;
 import satisfyu.nethervinery.block.ObsidianPaleStemBlock;
 import satisfyu.nethervinery.block.grape.CrimsonGrapeBush;
 import satisfyu.nethervinery.block.grape.WarpedGrapeBush;
-import satisfyu.vinery.Vinery;
 import satisfyu.vinery.block.GrapeItem;
 import satisfyu.vinery.block.GrapevinePotBlock;
 import satisfyu.vinery.block.storage.BigBottleStorageBlock;
@@ -46,9 +46,9 @@ import java.util.function.Supplier;
 
 
 public class NetherObjectRegistry {
-    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(Vinery.MODID, Registries.ITEM);
+    public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(NetherVinery.MODID, Registries.ITEM);
     public static final Registrar<Item> ITEM_REGISTRAR = ITEMS.getRegistrar();
-    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(Vinery.MODID, Registries.BLOCK);
+    public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(NetherVinery.MODID, Registries.BLOCK);
     public static final Registrar<Block> BLOCK_REGISTRAR = BLOCKS.getRegistrar();
 
 
@@ -63,7 +63,6 @@ public class NetherObjectRegistry {
     public static final RegistrySupplier<Item> WARPED_GRAPE = registerI("warped_grape", () -> new GrapeItem(getSettings().food(Foods.SWEET_BERRIES), NetherGrapeTypes.WARPED, WARPED_GRAPE_SEEDS.get()));
     public static final RegistrySupplier<Block> WARPED_GRAPE_CRATE = registerWithItem("warped_grape_crate", () -> new FacingBlock(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK)));
     public static final RegistrySupplier<Block> CRIMSON_GRAPE_GRATE = registerWithItem("crimson_grape_crate", () -> new FacingBlock(BlockBehaviour.Properties.copy(Blocks.HAY_BLOCK)));
-
     public static final RegistrySupplier<Item> WARPED_GRAPEJUICE = registerI("warped_grapejuice", () -> new Item(getSettings()));
     public static final RegistrySupplier<Item> CRIMSON_GRAPEJUICE = registerI("crimson_grapejuice", () -> new Item(getSettings()));
     public static final RegistrySupplier<Block> GHASTLY_GRENACHE = registerB("ghastly_grenache", () -> new WineBottleBlock(getWineSettings(), 2));

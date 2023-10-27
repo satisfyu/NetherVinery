@@ -7,10 +7,9 @@ import satisfyu.vinery.registry.GrapeTypes;
 public class NetherGrapeTypes {
 
     public static final GrapeType CRIMSON = GrapeTypes.registerGrapeType("crimson");
-    public static final GrapeType WARPED = GrapeTypes.registerGrapeType("warped", true);
+    public static final GrapeType WARPED = GrapeTypes.registerGrapeType("warped");
 
     public static void register() {
-        //REGISTER
     }
 
     public static void addGrapeAttributes() {

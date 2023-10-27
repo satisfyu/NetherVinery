@@ -3,7 +3,7 @@ package satisfyu.nethervinery.registry;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 import net.minecraft.world.level.block.ComposterBlock;
-
+/*
 public class NetherCompostableItems {
 
     public static void init() {
@@ -19,3 +19,4 @@ public class NetherCompostableItems {
         }
     }
 }
+*/

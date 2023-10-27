@@ -4,7 +4,7 @@ import de.cristelknight.doapi.DoApiExpectPlatform;
 import net.minecraft.world.level.block.Block;
 
 import static satisfyu.nethervinery.registry.NetherObjectRegistry.*;
-
+/*
 public class NetherFlammableBlocks {
 
     public static void init() {
@@ -20,4 +20,4 @@ public class NetherFlammableBlocks {
         DoApiExpectPlatform.addFlammable(burnOdd, igniteOdd, blocks);
     }
 
-}
+}*/
