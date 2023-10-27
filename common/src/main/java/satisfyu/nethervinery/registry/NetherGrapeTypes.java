@@ -10,7 +10,6 @@ public class NetherGrapeTypes {
     public static final GrapeType WARPED = GrapeTypes.registerGrapeType("warped");
 
     public static void register() {
-        //REGISTER
     }
 
     public static void addGrapeAttributes() {
