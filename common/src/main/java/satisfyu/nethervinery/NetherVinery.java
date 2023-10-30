@@ -24,7 +24,5 @@ public class NetherVinery {
     }
 
     public static void commonSetup(){
-        //NetherCompostableItems.init();
-        // NetherFlammableBlocks.init();
     }
 }
