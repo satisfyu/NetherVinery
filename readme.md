@@ -6,7 +6,7 @@
 
 <p>It brings new Grape variations, Storage Blocks as well as a few new crafting Blocks - all in the Style of Minecrafts Nether.</p>
 
-<sub>*Requires Vinery*</sub>
+<div style="text-align: center;"><sub>Requires Vinery</sub></div>
 
 <h1 align="center">Available for</h1>
 <p align="center"><img src="https://imgur.com/gREqi3m.png" width="240" height="120"></p>

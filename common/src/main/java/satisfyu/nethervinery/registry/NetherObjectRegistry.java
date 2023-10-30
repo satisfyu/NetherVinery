@@ -15,10 +15,7 @@ import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.food.Foods;
 import net.minecraft.world.item.BundleItem;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.BarrelBlock;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import satisfyu.nethervinery.NetherVinery;
 import satisfyu.nethervinery.NetherVineryIdentifier;
@@ -124,10 +121,6 @@ public class NetherObjectRegistry {
     private static Item.Properties getSettings() {
         return getSettings(settings -> {
         });
-    }
-    
-    private static Item.Properties getWineItemSettings(MobEffect effect) {
-        return getSettings().food(wineFoodComponent(effect, 45 * 20));
     }
 
     private static Item.Properties getWineItemSettings(MobEffect effect, int duration) {
