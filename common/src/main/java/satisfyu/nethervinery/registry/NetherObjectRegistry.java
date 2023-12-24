@@ -50,8 +50,8 @@ public class NetherObjectRegistry {
 
 
     public static final RegistrySupplier<Block> OBSIDIAN_STEM = registerWithItem("obsidian_stem", () -> new ObsidianPaleStemBlock(BlockBehaviour.Properties.copy(Blocks.OBSIDIAN)));
-    public static final RegistrySupplier<Item> CRIMSON_NETHER_BAG = registerI("crimson_nether_bag", () -> new BundleItem(getSettings()));
-    public static final RegistrySupplier<Item> WARPED_NETHER_BAG = registerI("warped_nether_bag", () -> new BundleItem(getSettings()));
+    public static final RegistrySupplier<Item> CRIMSON_NETHER_BAG = registerI("crimson_nether_bag", () -> new BundleItem(getSettings().stacksTo(1)));
+    public static final RegistrySupplier<Item> WARPED_NETHER_BAG = registerI("warped_nether_bag", () -> new BundleItem(getSettings().stacksTo(1)));
     public static final RegistrySupplier<Block> CRIMSON_GRAPE_BUSH = registerB("crimson_grape_bush", () -> new CrimsonGrapeBush(getBushSettings(), NetherGrapeTypes.CRIMSON));
     public static final RegistrySupplier<Block> WARPED_GRAPE_BUSH = registerB("warped_grape_bush", () -> new WarpedGrapeBush(getBushSettings(), NetherGrapeTypes.WARPED));
     public static final RegistrySupplier<Item> CRIMSON_GRAPE_SEEDS = registerI("crimson_grape_seeds", () -> new GrapeBushSeedItem(CRIMSON_GRAPE_BUSH.get(), getSettings(), NetherGrapeTypes.CRIMSON));
